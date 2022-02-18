@@ -281,4 +281,27 @@ MM NOTES.txt
 M  contact.html
 
 ****************************************************************
+****************************************************************
+
+touch .gitignore
+It create a file 
+THAT WE DONT WANT TO SEND 
+IT WILL ALSO DECREASE SPEED OF PUSH-PULL
+
+CREATE A WASTE FILE THAT U WANT TO IGNORE LIKE 
+(IT WILL IGNORE EVEN IF IT IS PRESENT IN SOME INSIDE FOLDER THEN ALSO)
+mylogs.txt
+
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (master)
+$ git add -A
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (master)
+$ git status -s
+A  .gitignore
+M  NOTES.txt
+M  about.html
+M  contact.html
+
+SEE IT HAS IGNORED THE GIT FILES 
 
