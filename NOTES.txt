@@ -1,0 +1,90 @@
+INITIALISE NAME AND EMAIL
+*****************************************************************
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO
+$ git config --global user.name Naman
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO
+$ git config --global user.email a.naman@iitg.ac.in
+
+TO SEE NAME AND EMAIL
+*****************************************************************
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO
+$ git config --global user.email
+a.naman@iitg.ac.in
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO
+$ git config --global user.name
+Naman
+
+
+
+*****************************************************************
+*****************************************************************
+CREATE EMPTY GIT REPOSITORY 
+*****************************************************************
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO
+$ git init
+Initialized empty Git repository in C:/Users/Dell/Desktop/GIT IN ONE VIDEO/.git/
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (master)
+$ ls -lart   (SHOWS ALL HIDDEN FOLDERS)
+total 12
+drwxr-xr-x 1 Dell 197121 0 Feb 18 00:58 ../
+drwxr-xr-x 1 Dell 197121 0 Feb 18 01:02 ./
+drwxr-xr-x 1 Dell 197121 0 Feb 18 01:02 .git/
+
+ALL THE DATA IS IN .git folder created here
+*****************************************************************
+*****************************************************************
+UNTRACKED : WE ARE NOT TRACKING USING GIT 
+ONCE WE ADD TO GIT AND RECORD CHANGES TO GIT FILE
+
+UNTRACKED------------------------------>---------STAGED
+                                   ADD THE FILE
+STAGED AREA : WHERE WE WILL COMMIT
+(LIKE PLAYGROUND)
+COMMIT : SNAPSHOT 
+
+STAGING AREA WE PASS THOSE WE WANT TO WORK WITH 
+WE STAGE THOSE WHO WANT TO 
+
+STAGING AREA ------------------->-----------------UNMODIFIED
+                                           COMMIT
+THIS FILE HAS SENT TO SNAPSHOT 
+THIS FILE WE CAN EDIT / REMOVE / OR LEAVE
+
+
+UNMOFIFIED------------>--------------MODIFIED
+                                   EDIT THE FILE
+
+MODIFIED----------->---------------STAGED
+AGAIN PASS TO STAGE
+THEN AGAIN U COMMIT 
+
+
+*****************************************************************
+*****************************************************************
+
+IT IS SAYING UNTRACKED FILE
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        NOTES.txt
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+
+
+
+
+
+
+
