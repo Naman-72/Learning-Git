@@ -160,5 +160,19 @@ git commit -m "Added More Htmls"
 clear is used to clear terminal
 $ clear
 *****************************************************************
+IF SOMEONE HAS REMOVED OR CHANGED OUR FILE AND 
+WE WANT TO RETRIVE BACK WE CAN USE CHECKOUT COMMAND
+
+git checkout Filename
+git checkout -f (IF U WANT ALL FILES TO COME BACK AGAIN)
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (master)
+$ git checkout NOTES.txt
+Updated 1 path from the index
+*****************************************************************
+Commit u mean U CAN RECOVER ANYTIME SO COMMIT ONCE U HAVE DONE 
+AND DON'T FORGET 
+*****************************************************************
+
 
 
