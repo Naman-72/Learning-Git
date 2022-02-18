@@ -331,6 +331,34 @@ WE CREATE COPY AND WORK ON THE COPIES
 
 master : Main Branch 
 git branch feature1
+IT WILL CREATE A BRANCH 
+
+AND HOW TO KNOW WHICH BRANCH WE ARE AT :
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (master)
+$ git branch feature1
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (master)
+$ git branch
+  feature1
+* master -> MEANS WE ARE AT MASTER BRANCH 
+
+****************************************************************
+****************************************************************
+git checkout feature1 => SWITCHED TO FEATURE1 BRANCH 
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (master)
+$ git checkout feature1
+Switched to branch 'feature1'
+M       NOTES.txt
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (feature1)
+$ git branch
+* feature1
+  master
+****************************************************************
+IF OUR  COMPANY LIKE NOW AFTER WE MAKE CHANGE THEN THEY WILL SAY TO MERGE NOW
+
 
 
 
