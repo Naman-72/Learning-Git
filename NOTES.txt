@@ -246,4 +246,39 @@ IT WILL MOVE THE FILES TO UNTRACKED AREA
 $ git rm waste
 rm 'waste'
 IT WILL DELETE THE FILE
+****************************************************************
+****************************************************************
+git status -s
+
+TO TRACK MANY FILES ( SHORTHAND)
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (master)
+$ git status -s
+ M NOTES.txt
+
+it tells the Files modified 
+****************************************************************
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (master)
+$ git status -s
+ M NOTES.txt
+ M about.html
+ M contact.html
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (master)
+$ git add contact.html
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (master)
+$ git status -s
+   M NOTES.txt
+   M about.html
+M    contact.html
+
+THE FIRST M DENOTES THAT IT HAS BEEN MODIFIED IN STAGING  AREA WHEREAS OTHER M DENOTES IT IS CHANGED IN WORKING AREA 
+
+$ git status -s
+MM NOTES.txt
+ M about.html
+M  contact.html
+
+****************************************************************
 
