@@ -359,6 +359,10 @@ $ git branch
 ****************************************************************
 IF OUR  COMPANY LIKE NOW AFTER WE MAKE CHANGE THEN THEY WILL SAY TO MERGE NOW
 
+****************************************************************
+IF COMPANY SAYS NO LIKE U CAN GO BACK TO MASTER BY SAYING 
 
+git checkout master 
+****************************************************************
 
 
