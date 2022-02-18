@@ -311,4 +311,8 @@ EXAMPLE:
 
 IF WE WANT TO JUST REMOVE FROM FOLDER NOT FROM ANYWHERE ELSE
 THEN USE /mylogs.txt
-Only at main tree
+Only at main tree where gitignore is 
+
+To ignore a folder 
+use 
+FolderName/
