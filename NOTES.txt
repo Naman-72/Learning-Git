@@ -156,6 +156,9 @@ WITHOUT GOING TO VIM EDITOR
 
 USE :
 git commit -m "Added More Htmls"
-
+*****************************************************************
+clear is used to clear terminal
+$ clear
+*****************************************************************
 
 
