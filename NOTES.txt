@@ -80,11 +80,82 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 
+*****************************************************************
+git status TELLS which files are not added and which are added
+
+U can add by 
+git add FileName(autocomplete use tab)
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (master)
+$ git add NOTES.txt
+
+*****************************************************************
+One initial Commit is required to track Project 
+
+WE WRITE GIT COMMIT 
+
+IT WILL OPEN VIM EDITOR
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#       new file:   NOTES.txt
+#       new file:   index.html
+#
+# Changes not staged for commit:
+#       modified:   NOTES.txt
+#
+~
+~
+~
 
 
+HOW TO START HERE :
+PRESS I TO START TYPING
+AND WRITE Initial commit
+Press Escape and then :wq to exit
 
+THIS INITIAL COMMIT IS THE MESSAGE WE HAVE GIVEN TO FILE CHANGE 
 
+NOW IT WILL DISPLAY THIS 
 
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (master)
+$ git commit
+[master (root-commit) 53792a1] Initial Commit
+ 2 files changed, 102 insertions(+)
+ create mode 100644 NOTES.txt
+ create mode 100644 index.html
+
+*****************************************************************
+Now use git status it will display 
+$ git status 
+On branch master 
+nothing to commit, working tree clean
+
+IF WE PUT CHANGES TO FILE
+*****************************************************************
+touch about.html
+touch contact.html
+
+TOUCH COMMAND IS USED TO CREATE NEW FILE
+
+*****************************************************************
+adding many FILES TOGETHER 
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (master)
+$ git add -A
+*****************************************************************
+NOW COMMIT 
+IF U WANT TO DIRECTLY ADD MESSAGE THEN USE 
+WITHOUT GOING TO VIM EDITOR
+
+USE :
+git commit -m "Added More Htmls"
 
 
 
