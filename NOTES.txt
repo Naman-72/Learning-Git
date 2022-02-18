@@ -371,4 +371,74 @@ then first
 git checkout master
 
 AND DO git merge feature1
+
+
+
+
+LIKE THIS :
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (feature1)
+$ git checkout master
+Switched to branch 'master'
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (master)
+$ git checkout feature1
+Switched to branch 'feature1'
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (feature1)
+$ git status
+On branch feature1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   NOTES.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (feature1)
+$ git branch
+* feature1
+  master
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (feature1)
+$ git commit -a -m "ADDED BRANCH FEATURE"
+[feature1 80694e9] ADDED BRANCH FEATURE
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (feature1)
+$ git status
+On branch feature1
+nothing to commit, working tree clean
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (feature1)
+$ git checkout master
+Switched to branch 'master'
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (master)
+$ git merge feature1
+Updating 63c1206..80694e9
+Fast-forward
+ NOTES.txt | 38 ++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 38 insertions(+)
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (master)
+$ git log -1
+commit 80694e97c5cb468b4836ab9710e4c29faafa0886 (HEAD -> master, feature1)
+Author: Naman <a.naman@iitg.ac.in>
+Date:   Fri Feb 18 12:34:10 2022 +0530
+
+    ADDED BRANCH FEATURE
+
+****************************************************************
+IF WE WANT TO DIRECTLY CREATE AND GO TO THAT BRANCH WE USE 
+git checkout -b Feature2(instead of first creating and then checkout to that branch)
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (master)
+$ git checkout -b feature2
+Switched to a new branch 'feature2'
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (feature2)
+$ git branch
+  feature1
+* feature2
+  master
 ****************************************************************
