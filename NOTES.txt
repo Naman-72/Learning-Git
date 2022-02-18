@@ -316,3 +316,21 @@ Only at main tree where gitignore is
 To ignore a folder 
 use 
 FolderName/
+
+
+****************************************************************
+****************************************************************
+BRANCHES
+(LIKE IF U WORK FOR SOME PROJECT VERY VERY IMP)
+(U CAN'T MESS)
+(LIKE EDITING A RUNNING WEBSITE )
+
+TO PREVENT THIS THINGS 
+WE USE BRANCHES 
+WE CREATE COPY AND WORK ON THE COPIES
+
+master : Main Branch 
+git branch feature1
+
+
+
