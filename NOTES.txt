@@ -213,4 +213,11 @@ Now u use q to quit
 git diff will show what u changed without pushing into staging area
 If no change then this command will not show anything 
 ****************************************************************
+If U want to compare staging area with last commit then use 
+git diff --stage
+****************************************************************
+****************************************************************
+****************************************************************
+THERE IS A DIRECT METHOD TO COMMIT ALSO BUT TRY TO AVOID 
 
+git commit -a -m
