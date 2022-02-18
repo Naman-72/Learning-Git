@@ -449,5 +449,101 @@ Note add Info To Commit Message
 Not like normal 😅😂
 ****************************************************************
 GITHUB : HOSTING REPOSITORY 
+****************************************************************
+****************************************************************
+REMOTE REPOSITORY 
+
+WE WILL MAKE A REMOTE REPOSITORY 
+WE WILL PUSH OUR LOCAL REPOSITORY THERE
+
+WE WILL ADD REMOTE 
+REMOTE : A URL  WHERE WE WILL HOST OUR REPOSITORY 
+
+git remote add origin https://github.com/Naman-72/Learning-Git.git
+
+THIS WILL NAME URL as origin 
+WE ARE CONNECTING OUR LOCAL REPOSITORY 
+
+THEN WE WILL WRITE 
+git remote : it will show origin 
+
+git remote -v : it tell url 
+
+git push origin master : push  to origin from master repository 
+(IT WILL WRITE )
+
+BUT INCASE U HAVEN'T MADE IT PUBLIC U MADE PRIVATE THEN IT MEANS THAT REPOSITORY DOESNOT EXIST 
+
+SO GO TO SETTINGS > SSH AND GPG KEY
+WE WILL GIVE ACCESS OF OUR GITHUB ACCOUNT TO COMPUTER 
+WE WILL DEPLOY SSH KEY 
+GO TO 
+Generating a new SSH key and adding it to the ssh-agent
+AND GET SSH KEY FROM THERE 
+$ ssh-keygen -********-C "your_email@example.com"
+LIKE THIS CHANGE IT TO THIS 
+(*********** IS JUST FOR PRIVACY😂)
+$ ssh-keygen -********-C "********@*******"
+
+
+
+PASTE THIS IN GIT BASH AND NOW YES
+AND GET THIS INFO IN DOC BELOW THE SSH KEY 
+OR JUST DO 
+$ eval "$(ssh-agent -s)"
+WE WILL GET AGENT KEY PID 
+AND THEN WRITE 
+$ ssh-add ~/.ssh/id_ed*****
+
+NOW GO TO SETTINGS >SSH AND GPG 
+AND THEN JUST ADD  NEW SSH KEY 
+
+
+COPY THE PUBLIC KEY CONTENT AND PASTE IN GIT
+AND USE CAT COMMAND
+cat ~/.ssh/id_ed*******.pub
+
+Create new SSH KEY AND THEN 
+NAME ANY TITLE 
+And copy the text generated and paste in key 
+
+ADD SSH KEY
+
+
+NOW DO 
+git remote set-url=ssh(url) instead of https
+git push -u origin master 
+
+
+U CAN PUSH OTHER BRANCHES ALSO
+git checkout feature1
+git push -u origin feature1
+
+
+PULL REQUEST : IF SOMEONE WANT TO IMPROVE 
+*****************************************************************
+*****************************************************************
+*****************************************************************
+git push  : direct command to push at master 
+*****************************************************************
+making git clone 
+
+(IF U WANT TO COPY YOUR FRIEND PROJECT LIKE)
+create a new folder anywhere in computer 
+then 
+open git bash there 
+COPY THE URL 
+git clone url FOLDER_NAME
+if just 
+git clone url then same name as owner
+*****************************************************************
+THANK YOU FOR VIEWING MY NOTES 
+CREDITS TO CODE WITH HARRY 
+😁😀😃😄❤
+DONT FORGET TO STAR 
+⭐
+
+
+
 
 
