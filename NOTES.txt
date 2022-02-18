@@ -173,6 +173,44 @@ Updated 1 path from the index
 Commit u mean U CAN RECOVER ANYTIME SO COMMIT ONCE U HAVE DONE 
 AND DON'T FORGET 
 *****************************************************************
+IF U WANT TO CHECK WHEN WAS LAST EDITED 
+THEN USE 
+git log
 
 
+$ git log
+commit 0602c699ffe13793d2ba54cbbe6800da4b59be59 (HEAD -> master)
+Author: Naman <a.naman@iitg.ac.in>
+Date:   Fri Feb 18 11:36:16 2022 +0530
+
+    Modified Notes
+
+commit 35c045411a37e22529554679e586a4deb0ce4d2d
+Author: Naman <a.naman@iitg.ac.in>
+Date:   Fri Feb 18 11:31:18 2022 +0530
+
+    For Recovering
+
+commit 8ea887beaaea59a88cde4a7254f10135ef0fd51b
+Author: Naman <a.naman@iitg.ac.in>
+Date:   Fri Feb 18 11:28:57 2022 +0530
+
+    Added More Htmls
+
+commit 53792a1a5d4cffd15ff985f7ce5253cc3615fc66
+Author: Naman <a.naman@iitg.ac.in>
+Date:   Fri Feb 18 11:17:04 2022 +0530
+
+    Initial Commit
+
+IF WE WANT TO FILTER GIT LOG 
+SEE LAST 5 THEN 
+git log -p -5
+
+NOW IT WILL ALSO TELL ALL THE CHANGES U MADE 
+Now u use q to quit 
+****************************************************************
+git diff will show what u changed without pushing into staging area
+If no change then this command will not show anything 
+****************************************************************
 
