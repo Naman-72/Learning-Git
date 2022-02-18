@@ -362,7 +362,13 @@ IF OUR  COMPANY LIKE NOW AFTER WE MAKE CHANGE THEN THEY WILL SAY TO MERGE NOW
 ****************************************************************
 IF COMPANY SAYS NO LIKE U CAN GO BACK TO MASTER BY SAYING 
 
-git checkout master 
+git checkout master : IT WILL MAKE U GO BACK 
+BUT SUDDENLY IF COMPANY APPROVES THEN U CAN COME BACK BY JUST SAYING
+git checkout feature1
 ****************************************************************
+Now if u want To merge to master 
+then first 
+git checkout master
 
-
+AND DO git merge feature1
+****************************************************************
