@@ -238,3 +238,12 @@ Date:   Fri Feb 18 11:49:33 2022 +0530
 U can use git Bash as terminal also
 
 How to remove a file 
+
+$ git rm --cached waste
+rm 'waste'
+IT WILL MOVE THE FILES TO UNTRACKED AREA 
+
+$ git rm waste
+rm 'waste'
+IT WILL DELETE THE FILE
+
