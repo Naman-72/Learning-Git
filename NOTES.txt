@@ -221,3 +221,20 @@ git diff --stage
 THERE IS A DIRECT METHOD TO COMMIT ALSO BUT TRY TO AVOID 
 
 git commit -a -m
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (master)
+$ git commit -a -m "Skip Staging Area and Commit"
+[master 7fed1de] Skip Staging Area and Commit
+ 1 file changed, 7 insertions(+)
+
+Dell@NAMAN MINGW64 ~/Desktop/GIT IN ONE VIDEO (master)
+$ git log -1
+commit 7fed1de18dac9c7ed26dc3683b04944138083cb5 (HEAD -> master)
+Author: Naman <a.naman@iitg.ac.in>
+Date:   Fri Feb 18 11:49:33 2022 +0530
+
+    Skip Staging Area and Commit
+****************************************************************
+U can use git Bash as terminal also
+
+How to remove a file 
